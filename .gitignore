@@ -1,0 +1,42 @@
+# Build outputs
+*.exe
+*.obj
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.manifest
+*.res
+
+# Visual Studio / VSCode
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+ipch/
+*.VC.db
+*.VC.opendb
+
+# Build directories
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# IDE specific
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Project specific
+ui_shell
+shell
