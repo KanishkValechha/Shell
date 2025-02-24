@@ -3,9 +3,9 @@
 
 #include <QMainWindow>
 #include <QTextEdit>
-#include <QLineEdit>
 #include <QPushButton>
 #include <QProcess>
+#include "commandlineedit.h"
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -17,7 +17,7 @@ private slots:
     void launchShell();
 private:
     QTextEdit *outputEdit;
-    QLineEdit *inputEdit;
+    CommandLineEdit *inputEdit;
     QPushButton *runButton;
     QPushButton *shellButton;
     QProcess *process;
