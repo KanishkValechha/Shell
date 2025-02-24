@@ -4,7 +4,8 @@
 #include <QLineEdit>
 #include <QVector>
 
-class CommandLineEdit : public QLineEdit {
+class CommandLineEdit : public QLineEdit
+{
     Q_OBJECT
 public:
     CommandLineEdit(QWidget *parent = nullptr);

@@ -7,7 +7,8 @@
 #include <QProcess>
 #include "commandlineedit.h"
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow
+{
     Q_OBJECT
 public:
     MainWindow(QWidget *parent = nullptr);
@@ -15,6 +16,7 @@ private slots:
     void runCommand();
     void processOutput();
     void launchShell();
+
 private:
     QTextEdit *outputEdit;
     CommandLineEdit *inputEdit;
